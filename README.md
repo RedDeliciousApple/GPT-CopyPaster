@@ -1,4 +1,3 @@
-# GPT-exporter-bookmarklet
 # ChatGPT Export Bookmarklet
 
 A lightweight bookmarklet that allows you to select and export ChatGPT messages with rich text formatting preserved.
