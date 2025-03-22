@@ -1,6 +1,6 @@
 # ChatGPT CopyPaster Bookmarklet
 
-A lightweight bookmarklet that allows you to select and export ChatGPT messages with rich text formatting preserved.
+A lightweight bookmarklet that allows you to select and copypaste ChatGPT messages with rich text formatting preserved.
 
 ## Features
 
