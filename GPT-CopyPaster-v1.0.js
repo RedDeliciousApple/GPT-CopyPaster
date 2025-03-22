@@ -1,6 +1,6 @@
 (function() {
-  // Flag to track if the exporter is active
-  if (window.ChatGPTExporterActive) {
+  // Flag to track if the copypaster is active
+  if (window.ChatGPTCopyPasterActive) {
     // If it exists but is out of view, reset position
     const existingWidget = document.getElementById('chatgpt-export-widget');
     if (existingWidget) {
@@ -17,7 +17,7 @@
   }
   
   // Set flag to prevent multiple instances
-  window.ChatGPTExporterActive = true;
+  window.ChatGPTCopypasterActive = true;
   
   // Track event listeners for cleanup
   const eventListeners = [];
@@ -353,8 +353,8 @@
     }
   }
   
-  // Function to clean up exporter
-  function cleanupExporter() {
+  // Function to clean up copypaster
+  function cleanupCopyPaster() {
     // Remove all selection styles
     findMessages().forEach(message => {
       if (message.classList.contains('selected-message')) {
@@ -395,7 +395,7 @@
     
     // Reset state
     window.selectedMessages = [];
-    window.ChatGPTExporterActive = false;
+    window.ChatGPTCopyPasterActive = false;
   }
   
   // Select All button
