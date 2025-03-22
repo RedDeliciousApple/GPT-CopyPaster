@@ -1,4 +1,4 @@
-# ChatGPT Export Bookmarklet
+# ChatGPT CopyPaster Bookmarklet
 
 A lightweight bookmarklet that allows you to select and export ChatGPT messages with rich text formatting preserved.
 
@@ -6,16 +6,16 @@ A lightweight bookmarklet that allows you to select and export ChatGPT messages 
 
 - **Message Selection**: Click on any message to select it (highlighted with a green border)
 - **Batch Operations**: Select all or deselect all messages with one click
-- **Rich Text Export**: Preserves formatting when pasting into Google Docs, Word, etc.
+- **Rich Text CopyPaste**: Preserves formatting when pasting into Google Docs, Word, etc.
 - **Attribution**: Clearly labels messages with "You:" and "ChatGPT:"
 - **Formatting Support**: Preserves code blocks, tables, lists, bold/italic text, and more
-- **Simple Interface**: Lightweight floating panel that can be dragged anywhere on screen
+- **Simple Interface**: Lightweight floating widget that can be dragged anywhere on screen
 - **No Installation Required**: Works directly as a bookmark in your browser
 
 ## Installation
 
 1. Create a new bookmark in your browser
-2. Name it "ChatGPT Export" (or any name you prefer)
+2. Name it "ChatGPT CopyPaster" (or any name you prefer)
 3. Copy and paste the following code into the URL/location field:
 
 ```javascript
