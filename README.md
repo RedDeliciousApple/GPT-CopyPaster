@@ -27,7 +27,7 @@ This maintenance update fixes two important user experience issues:
 2. Install GPT-CopyPaster:
    - Click the Tampermonkey icon in your browser
    - Select "Create a new script"
-   - Copy and paste the entire script content from GPT-CopyPaster.user.js
+   - Copy and paste the entire script content from GPT-CopyPaster-v1.2.3.js
    - Save the script (Ctrl+S or Cmd+S)
 
 ## Usage
